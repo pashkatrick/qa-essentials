@@ -33,5 +33,10 @@ wait $!
 echo 'install docker'
 brew install --cask docker &
 wait $!
+
+echo 'install node.js'
+brew install node &
+wait $!
+
 echo done
 ```
