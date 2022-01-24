@@ -38,5 +38,9 @@ echo 'install node.js'
 brew install node &
 wait $!
 
+echo 'install charles proxy'
+brew install --cask charles
+wait $!
+
 echo done
 ```
