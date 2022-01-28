@@ -46,5 +46,9 @@ echo 'install github cli'
 brew install gh
 wait $!
 
+echo 'install gitmoji'
+brew install gitmoji
+wait $!
+
 echo done
 ```
