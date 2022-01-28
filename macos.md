@@ -42,5 +42,9 @@ echo 'install charles proxy'
 brew install --cask charles
 wait $!
 
+echo 'install github cli'
+brew install gh
+wait $!
+
 echo done
 ```
