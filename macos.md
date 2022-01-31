@@ -50,5 +50,13 @@ echo 'install gitmoji'
 brew install gitmoji
 wait $!
 
+echo 'install peco filter'
+brew install peco
+wait $!
+
+echo 'install midnight commander'
+brew install mc
+wait $!
+
 echo done
 ```
